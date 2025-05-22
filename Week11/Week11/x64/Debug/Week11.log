@@ -1,0 +1,4 @@
+﻿  Week11.cpp
+C:\Users\calom\Documents\pizh2321_Shevchenko\Week11\Week11.cpp(39,22): error C2001: newline в константе
+C:\Users\calom\Documents\pizh2321_Shevchenko\Week11\Week11.cpp(40,1): error C2001: newline в константе
+C:\Users\calom\Documents\pizh2321_Shevchenko\Week11\Week11.cpp(41,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "return"

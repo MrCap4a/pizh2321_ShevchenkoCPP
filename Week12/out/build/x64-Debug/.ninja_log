@@ -1,0 +1,11 @@
+# ninja log v6
+26	610	7696168849217577	lib/CMakeFiles/argparser.dir/ArgParser.cpp.obj	834bdb73008ce119
+612	693	7696168855073802	lib/argparser.lib	3e9bc668e24a44b3
+30	1004	7696168849267604	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	339e6dec669a9699
+36	1169	7696168849317585	tests/CMakeFiles/argparser_tests.dir/argparser_test.cpp.obj	1cac347e8c1c03ce
+20	2160	7696168849157671	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	1f5f1b8df3450d15
+2160	2241	7696168870553380	lib/gtest.lib	a540cf312ae07304
+2241	2289	7696168871282250	lib/gtest_main.lib	13a92a0d617a6c76
+2290	2813	7696168876996695	tests/argparser_tests.exe	a4bde666e0374ae
+2290	2813	7696168876996695	tests/argparser_tests[1]_tests.cmake	a4bde666e0374ae
+2290	2813	7696168876996695	C:/Users/calom/Documents/pizh2321_ShevchenkoCPP/Week12/out/build/x64-Debug/tests/argparser_tests[1]_tests.cmake	a4bde666e0374ae
