@@ -1,12 +1,12 @@
 # Visual Studio
 .vs/
 *.sln
+*.vcxproj
 *.vcxproj.user
 *.vcxproj.filters
 
 # Build output
 x64/
-Week11/x64/
 Debug/
 Release/
 *.obj
