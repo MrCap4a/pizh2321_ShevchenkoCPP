@@ -1,3 +1,26 @@
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj.user
+*.vcxproj.filters
+
+# Build output
+x64/
+Week11/x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.log
+
+# Кэш сборки
+*.tlog
+*.lastbuildstate
+*.VC.db
+
 # Игнорировать всё
 *
 
