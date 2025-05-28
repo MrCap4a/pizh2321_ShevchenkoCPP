@@ -1,5 +1,4 @@
-﻿// lib/ArgParser.cpp
-#include "ArgParser.h"
+﻿#include "ArgParser.h"
 #include <algorithm>
 #include <cstdlib>
 

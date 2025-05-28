@@ -1,32 +1,8 @@
-# Prerequisites
-*.d
+# Игнорировать всё
+*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Разрешить только .h и .cpp в папке lib (без подпапок)
+!lib/
+!lib/*.h
+!lib/*.cpp
+!*.md

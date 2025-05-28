@@ -1,5 +1,4 @@
-﻿// lib/ArgParser.h
-#pragma once
+﻿#pragma once
 
 #include <string>
 #include <vector>

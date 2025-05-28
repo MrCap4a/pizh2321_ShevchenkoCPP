@@ -7,9 +7,11 @@
   },
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\lib",
+    "\\out",
     "\\tests"
   ],
-  "SelectedNode": "\\tests\\argparser_test.cpp",
+  "SelectedNode": "\\bin\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

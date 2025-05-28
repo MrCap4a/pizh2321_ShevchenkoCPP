@@ -1,45 +1,60 @@
-#include <functional>
-#include <lib/ArgParser.h>
+﻿#include <iostream>
+#include <string>
+#include <vector>
+#include "lib/ArgParser.h"
 
-#include <iostream>
-#include <numeric>
+using namespace ArgumentParser;
 
-struct Options {
-    bool sum = false;
-    bool mult = false;
-};
+int main() {
+    // Имитация аргументов командной строки
+    std::vector<std::string> args = {
+        "program",          // argv[0]
+        "--file", "config.txt",
+        "--threads=4",
+        "--verbose",
+        "input1.txt",
+        "input2.txt"
+    };
 
-int main(int argc, char** argv) {
-    Options opt;
-    std::vector<int> values;
+    std::string fileName;
+    int threadCount = 1;
+    bool verbose = false;
+    std::vector<std::string> inputFiles;
 
-    ArgumentParser::ArgParser parser("Program");
-    parser.AddIntArgument("N").MultiValue(1).Positional().StoreValues(values);
-    parser.AddFlag("sum", "add args").StoreValue(opt.sum);
-    parser.AddFlag("mult", "multiply args").StoreValue(opt.mult);
-    parser.AddHelp('h', "help", "Program accumulate arguments");
+    ArgParser parser("Example: no console args");
 
-    if(!parser.Parse(argc, argv)) {
-        std::cout << "Wrong argument" << std::endl;
-        std::cout << parser.HelpDescription() << std::endl;
+    parser
+        .AddHelp('h', "help", "Show help")
+        .AddStringArgument('f', "file", "Input file")
+        .Default("default.txt")
+        .StoreValue(fileName)
+        .AddIntArgument('t', "threads", "Number of threads")
+        .Default(1)
+        .StoreValue(threadCount)
+        .AddFlag('v', "verbose", "Verbose mode")
+        .StoreValue(verbose)
+        .AddStringArgument("inputs", "Input files")
+        .MultiValue()
+        .Positional()
+        .StoreValues(inputFiles);
+
+    if (!parser.Parse(args)) {
+        std::cerr << "Error: invalid arguments\n";
         return 1;
     }
 
-    if(parser.Help()) {
-        std::cout << parser.HelpDescription() << std::endl;
+    if (parser.Help()) {
+        std::cout << parser.HelpDescription();
         return 0;
     }
 
-    if(opt.sum) {
-        std::cout << "Result: " << std::accumulate(values.begin(), values.end(), 0) << std::endl;
-    } else if(opt.mult) {
-        std::cout << "Result: " << std::accumulate(values.begin(), values.end(), 1, std::multiplies<int>()) << std::endl;
-    } else {
-        std::cout << "No one options had chosen" << std::endl;
-        std::cout << parser.HelpDescription();
-        return 1;
-    }
+    std::cout << "File: " << fileName << "\n";
+    std::cout << "Threads: " << threadCount << "\n";
+    std::cout << "Verbose: " << (verbose ? "on" : "off") << "\n";
+
+    std::cout << "Input files:\n";
+    for (const auto& f : inputFiles)
+        std::cout << " - " << f << "\n";
 
     return 0;
-
 }
