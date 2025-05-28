@@ -7,7 +7,12 @@
 
 # Build output
 x64/
+bin/
+Build/
+out/
+tests/
 Debug/
+/out/build/x64-Debug
 Release/
 *.obj
 *.exe
@@ -23,6 +28,7 @@ Release/
 
 # Игнорировать всё
 *
+*.txt
 
 # Разрешить только .h и .cpp в папке lib (без подпапок)
 !lib/

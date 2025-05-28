@@ -30,7 +30,9 @@ Release/
 !lib/*.cpp
 !*.md
 
-/bin
-/build
-/out
-/tests
+bin/
+build/
+out/
+tests/
+
+CMakeLists.txt
