@@ -7,8 +7,9 @@
   },
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\lib"
   ],
-  "SelectedNode": "\\lib",
+  "SelectedNode": "\\bin\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week14\\Frame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\bin\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\ArgParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week14\\Frame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\bin\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -30,10 +34,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\ArgParser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\ArgParser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\tests\\argparser_test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\argparser_test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -45,11 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Frame.cpp",
               "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week14\\Frame.cpp",
               "RelativeDocumentMoniker": "..\\Week14\\Frame.cpp",
@@ -62,33 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\tests\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "tests\\CMakeLists.txt",
-              "ToolTip": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\tests\\CMakeLists.txt",
-              "RelativeToolTip": "tests\\CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-28T02:53:20.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "CMakeLists.txt",
-              "ToolTip": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\CMakeLists.txt",
-              "RelativeToolTip": "CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-28T02:42:58.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\CMakeLists.txt",
               "RelativeDocumentMoniker": "lib\\CMakeLists.txt",
@@ -96,12 +70,11 @@
               "RelativeToolTip": "lib\\CMakeLists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-28T02:33:30.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:33:30.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\bin\\CMakeLists.txt",
               "RelativeDocumentMoniker": "bin\\CMakeLists.txt",
@@ -109,12 +82,11 @@
               "RelativeToolTip": "bin\\CMakeLists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-28T02:42:52.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:42:52.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\bin\\main.cpp",
               "RelativeDocumentMoniker": "bin\\main.cpp",
@@ -124,6 +96,43 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-28T02:37:39.443Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArgParser.cpp",
+              "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.cpp",
+              "RelativeDocumentMoniker": "lib\\ArgParser.cpp",
+              "ToolTip": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.cpp",
+              "RelativeToolTip": "lib\\ArgParser.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-22T12:30:14.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-28T02:42:58.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\tests\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "tests\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\tests\\CMakeLists.txt",
+              "RelativeToolTip": "tests\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-28T02:53:20.267Z"
             },
             {
               "$type": "Document",
@@ -140,18 +149,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ArgParser.cpp",
-              "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.cpp",
-              "RelativeDocumentMoniker": "lib\\ArgParser.cpp",
-              "ToolTip": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.cpp",
-              "RelativeToolTip": "lib\\ArgParser.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-22T12:30:14.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ArgParser.h",
               "DocumentMoniker": "C:\\Users\\calom\\Documents\\pizh2321_ShevchenkoCPP\\Week12\\lib\\ArgParser.h",
               "RelativeDocumentMoniker": "lib\\ArgParser.h",
